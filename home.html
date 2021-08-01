@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Border-Image</title>
+<!-- <link rel="stylesheet" type="text/css" href="borderimage.css"> -->
+<style>
+	*{
+		margin:0px;
+	}
+    img
+{
+	margin-left:150px;
+	margin-top:50px;
+	border: 50px solid transparent;
+	border-image:url(./frame1.jpg) 13% 17% 14% 15%;
+}
+body{
+	background-color: rgb(66, 89, 92) ;
+	background-image: url("https://th.bing.com/th/id/R.09f452c9efaa684ba63ccb2fd8657ec2?rik=VHQokFTSGGHAZQ&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f08%2f16%2farchitecture-desktop-backgrounds_072028599_198.jpg&ehk=eSSG8TOrabIMDOt3VN8obyxBbdDAfF5Os1w2PMEBKhk%3d&risl=&pid=ImgRaw&r=0");
+	background-blend-mode:color-burn;
+	 
+}
+pre{
+	font-size:25px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+	color: rgba(219, 219, 221);
+	text-align: right;
+	margin-right: 75px;
+	margin-top: 70px;
+
+}
+.right{
+	height: 60px;
+	display:flex;
+	flex-direction: flex-end;
+	justify-content:space-evenly;
+	align-items: flex-end;
+	background-color: black;
+	background-blend-mode: color-burn;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	color: rgb(219, 219, 221);
+}
+ #bg{
+	height:100%;
+	width: 100%;
+	background-color: rgb(75, 15, 15);
+	clip-path: polygon(73% 11%, 97% 11%, 97% 35%, 91% 35%,96% 45%,84% 35%,73% 35%);
+	position: absolute;
+	z-index: -1;
+}
+
+</style>
+</head>
+<body>
+	<div class="right">
+		<div> Home </div>
+		<div> About Us </div>
+		<div>Shop Now</div>
+		<div>Sign Up</div>
+		<div> Contact Us </div>
+	</div>
+	<div id="bg">
+		<pre> 
+   			Holaa...                
+   			Here you go!! hurry up!!
+  			This is the most awited 
+          	  End Of The Season Sale	
+		</pre>
+	</div>
+</body>
+</html>
