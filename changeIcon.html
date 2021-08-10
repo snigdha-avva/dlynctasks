@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+     <body>
+
+        <i onClick="changeIcon()" class="fa fa-thumbs-up" id="fb" style="font-size:48px;color:grey"></i>
+
+
+         <script>
+         
+              function changeIcon(){
+                  if(document.getElementById("fb").className == "fa fa-thumbs-up"){
+                    document.getElementById("fb").className = "fa fa-thumbs-down";
+                    
+                  }
+                  else //if(document.getElementById("fb").className == "fa fa-thumbs-down")
+                  {
+                    document.getElementById("fb").className = "fa fa-thumbs-up"; 
+                  }
+              }
+               
+
+         </script>
+
+     </body>
+</html>
