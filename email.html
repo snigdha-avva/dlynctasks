@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gmail</title>
+</head>
+<body>
+   Email ID :<input type="text" id="email" placeholder="Enter your email ID"  onkeyup="myEmailId()"> &nbsp;&nbsp;  <span id="input"> </span>
+   <script>
+       
+       function myEmailId(){
+           var email= document.getElementById("email").value;
+           var emailId=['hiifrends@gmail.com','chaipillo@gmail.com','veekshith14@gmail.com','kalamula14@gmail.com','rahithya@gmail.com','krishna@gmail.com'];
+           if ( emailId.includes(email)) {
+               document.getElementById('input').innerHTML= 'not available' ;
+               
+           } else {
+               document.getElementById('input').innerHTML= 'available' ;
+               
+           }
+       }
+   </script>
+    
+    
+</body>
+</html>
